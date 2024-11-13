@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .section-title {
+            margin-top: 40px;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+
+        .section-content {
+            margin-top: 10px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Currículum Vitae</h1>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Perfil -->
+        <section class="profile">
+            <div style="text-align: center;">
+                <img src="tu-foto.jpg" alt="Foto de Perfil">
+            </div>
+            <div class="section-title">Descripción</div>
+            <div class="section-content">
+                <p>¡Hola! Soy Itchel Shadey Navarrete Saligan, estudiante de ingenieria mecatronica. Tengo experiencia
+                    en lenguaje C y C++ y me apasiona aprender cosas nuevas. Estoy buscando nuevas oportunidades para
+                    crecer profesionalmente y contribuir a proyectos innovadores.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades -->
+        <section>
+            <section class="section-title">Habilidades</div>
+                <div class="section-content">
+                    <ul>
+                        <li>C++</li>
+                        <li>Electronica</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Dispuesta a mejorar</li>
+
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección de Hobbies -->
+            <section>
+                <section class="section-title">Hobbies</div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Leer libros de tecnología</li>
+                            <li>Aprender nuevos idiomas</li>
+                            <li>Viajar y conocer nuevas culturas</li>
+                            <li>Escuchar música</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Sección de Contacto -->
+                <section>
+                    <section class="section-title">Contacto</div>
+                        <div class="section-content">
+                            <form action="mailto:tu-email@ejemplo.com" method="post" enctype="text/plain"
+                                class="contact-form">
+                                <label for="name">Nombre:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <label for="message">Mensaje:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </section>
+                    </div>
+</body>
+
+</html>
